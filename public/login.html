@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel='stylesheet' href='css/login-style.css'>
+</head>
+
+<body>
+    <form id='formLogin' method="post">
+        <div class="container">
+            <label for="user"><b>Usuário</b></label>
+            <input type="text" placeholder="Insira o nome de usuário" name="user" required>
+
+            <label for="pwd"><b>Password</b></label>
+            <input type="password" placeholder="Insira a senha" name="pwd" required>
+
+            <button type="submit" id='login'>Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Lembrar-se de mim
+              </label>
+        </div>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
